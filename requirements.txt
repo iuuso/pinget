@@ -1,0 +1,2 @@
+telepot
+python-telegram-bot
