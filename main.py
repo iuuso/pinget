@@ -26,7 +26,7 @@ def main():
 		print("https://core.telegram.org/bots")
 		return
 	else:
-		updater = Updater(token=)
+		updater = Updater(token=setup.bot_token)
 		dispatcher = updater.dispatcher
 
 		start_handler = CommandHandler('start', start)
